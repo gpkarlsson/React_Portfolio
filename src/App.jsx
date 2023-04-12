@@ -1,7 +1,9 @@
 import './App.css';
 import React from 'react';
 
-import {AboutMe, Contact, Footer, Header, Navigation, Portfolio, Resume, Landing} from './components';
+import AboutMe from './pages/AboutMe/AboutMe'
+import Header from './components/Header/Header'
+
 
 export default function App() {
   return (
