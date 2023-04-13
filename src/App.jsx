@@ -12,14 +12,7 @@ export default function App() {
       <main>
     <Navigation />
     <Landing />
-    <h1>Gordon Karlsson</h1>
-    <h3>Web Developer</h3>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
+   
     {/* <Header /> */}
     {/* <AboutMe />  */}
     {/* <Contact />
