@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Navigation() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Gordon Karlsson</Navbar.Brand>
           <Nav className="me-auto">
