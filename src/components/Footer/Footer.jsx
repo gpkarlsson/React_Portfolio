@@ -1,16 +1,18 @@
 import React from "react";
+import Nav from 'react-bootstrap/Nav';
 
-export default function Footer() {
-  return(
-    <footer className="FOOT">
-
-    <ul id="FOOTER_LINKS">
-    <li><a href="https://www.github.com/gpkarlsson">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/gordon-karlsson/">LinkedIn</a></li>
-    <li><a href="#">Stack Overflow</a></li>
-  </ul>
-</footer>
-
+export default function ListExample() {
+  return (
+    <Nav className="FOOTER_LINKS" defaultActiveKey="/home" as="ul" fixed="bottom" >
+      <Nav.Item as="li">
+        <Nav.Link href="/home">Active</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link eventKey="link-1">Link</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link eventKey="link-2">Link</Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
-  
 }

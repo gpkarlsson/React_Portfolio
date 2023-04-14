@@ -5,6 +5,7 @@ import Landing from './pages/Home/Landing.jsx'
 // import Header from './components/Header/Header'
 import Navigation from './components/Navigation/Navigation'
 import Footer from './components/Footer/Footer'
+import Contact from './pages/ContactMe/Contact.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -15,9 +16,9 @@ export default function App() {
    
     {/* <Header /> */}
     {/* <AboutMe />  */}
-    {/* <Contact />
-    <Portfolio />
-    <Resume />*/}
+     <Contact />
+    {/*<Portfolio />
+  <Resume />*/}
     <Footer /> 
     
       </main>
