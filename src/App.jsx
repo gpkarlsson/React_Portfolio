@@ -16,7 +16,7 @@ export default function App() {
    
     {/* <Header /> */}
     {/* <AboutMe />  */}
-     <Contact />
+     
     {/*<Portfolio />
   <Resume />*/}
     <Footer /> 

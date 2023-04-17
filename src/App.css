@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -56,4 +57,8 @@
 .MAIN_CARD {
   display: flex;
   justify-content: center;
+}
+
+.hide {
+  display: none;
 }
