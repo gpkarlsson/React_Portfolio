@@ -4,7 +4,7 @@ import Navigation from '../../components/Navigation/Navigation'
 
 import Form from 'react-bootstrap/Form';
 
-export default function TextControlsExample() {
+export default function ContactMe() {
   return (
     <Form id="contact" className="hide">
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
