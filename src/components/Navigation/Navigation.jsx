@@ -2,8 +2,18 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Landing from '../../pages/Home/Landing'
 
 function renderLinks() {
+  //onClick -> clickHandler -> Render page associated with clicked link
+
+  //Portfolio clicked -> render Portfolio cards
+  
+  //About Me link clicked -> Render AboutMe page
+
+  //ContactMe clicked -> render ContactMe page
+  
+  //Home clicked -> render Home page
   
 }
 
