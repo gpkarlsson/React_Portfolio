@@ -1,45 +1,51 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Landing from '../../pages/Home/Landing'
+import React from 'react';
 
-function renderLinks() {
-  //onClick -> clickHandler -> Render page associated with clicked link
-
-  //Portfolio clicked -> render Portfolio cards
-  
-  //About Me link clicked -> Render AboutMe page
-
-  //ContactMe clicked -> render ContactMe page
-  
-  //Home clicked -> render Home page
-  
-}
-
-
-export default function Navigation() {
+// Here we are using object destructuring assignment to pluck off our variables from the props object
+// We assign them to their own variable names
+export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <>
-      <Navbar sticky="top" bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Gordon Karlsson</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link eventKey="portfolio" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
-              Portfolio
-            </Nav.Link>
-            <Nav.Link eventKey="about" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
-              About Me
-            </Nav.Link>
-            <Nav.Link eventKey="contact" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
-              Contact Me
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-    </>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#Landing"
+          onClick={() => handlePageChange('Landing')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'Landing' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#blog"
+          onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Blog
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
   );
 }
-
-// About Me, Portfolio, Resume

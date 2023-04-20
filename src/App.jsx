@@ -1,28 +1,15 @@
 import './App.css';
 import React from 'react';
-import Landing from './pages/Home/Landing.jsx'
-// import AboutMe from './pages/AboutMe'
-// import Header from './components/Header/Header'
-import Navigation from './components/Navigation/Navigation'
-import Footer from './components/Footer/Footer'
-import Contact from './pages/ContactMe/Contact.jsx'
+import Container from './pages/Portfolio/Container'
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function App() {
-  return (
-      <main>
-    <Navigation />
-    <Landing />
-   
-    {/* <Header /> */}
-    {/* <AboutMe />  */}
-     
-    {/*<Portfolio />
-  <Resume />*/}
-    <Footer /> 
-    
-      </main>
+const App = () => 
+<>
+<Header />
+<Container />
+<Footer />
+</>
 
-    );
-}
-
+export default App;
