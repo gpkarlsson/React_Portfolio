@@ -10,30 +10,31 @@ export default function Portfolio() {
                 <Col md={4}>
                     <Project
                         title="Cards & Cartridges"
-                        subtitle="Front End Web App"
-                        description="Made using Bulma, PokeApi and Pokemon TCG  Developers Api"
+                        subtitle="Front End App"
+                        description="An application made to provide information about Pokemon Games as well as "
                         link1="https://github.com/gpkarlsson/Pokemon-Cards-and-Games-Info-App"
+                        tech="Bulma, CSS, JavaScript, PokeAPI, Pokemon TCG Developers API"
                        
                     />
 
                 </Col>
                 <Col md={4}>
                     <Project
-                        title="Professional ReadMe Generator"
-                        subtitle="Command Line Application"
+                        title="ReadMe Generator"
+                        subtitle="Command Line App"
                         description="Using Node.js, generate a professional readme easily"
                         link1="https://github.com/gpkarlsson/Node.js-ReadMe-Generator"
-                        link2="https://example.com"
+                        tech="JavaScript, Node.js, Inquirer, NPM"
                     />
 
                 </Col>
                 <Col md={4}>
                     <Project
-                        title="Project 3"
-                        subtitle="Subtitle 3"
-                        description="Description 3"
-                        link1="https://example.com"
-                        link2="https://example.com"
+                        title="Note Taker"
+                        subtitle="Express.js CRUD Application"
+                        description="Create and store user defined notes"
+                        link1="https://github.com/gpkarlsson/Note-Taker-CRUD-App"
+                        tech="HTML, CSS, JavaScript, Express.js, NPM, Node.js"
                     />
 
                 </Col>
@@ -41,30 +42,31 @@ export default function Portfolio() {
             <Row>
                 <Col md={4}>
                     <Project
-                        title="Project 4"
-                        subtitle="Subtitle 4"
-                        description="Description 4"
-                        link1="https://example.com"
-                        link2="https://example.com"
+                        title="Email Sender"
+                        subtitle="Back End App"
+                        description="Automated email sender application."
+                        link1="https://github.com/gpkarlsson/Willy_Coop_Tofu_Reuben_Bot"
+                        tech="JavaScript, Nodemailer, Dotenv, Express.js, node-cron"
                     />
 
                 </Col>
                 <Col md={4}>
                     <Project
-                        title="Project 5"
-                        subtitle="Subtitle 5"
-                        description="Description 5"
-                        link1="https://example.com"
-                        link2="https://example.com"
+                        title="Quiz Taker"
+                        subtitle="Full Stack App"
+                        description="A quiz taking app."
+                        link1="https://github.com/gpkarlsson/Custom_Quiz_Creator"
+                        tech="JavaScript, CSS, Handlebars.js, Express.js, Node.js, NPM, Nodemon"
                     />
                 </Col>
                 <Col md={4}>
                     <Project
-                        title="Project 6"
-                        subtitle="Subtitle 6"
-                        description="Description 6"
-                        link1="https://example.com"
-                        link2="https://example.com"
+                        title="React Portfolio"
+                        subtitle="Front End App"
+                        description="This very portfolio you are looking at!"
+                        link1="https://github.com/gpkarlsson/React_Portfolio"
+                        tech="React.js, CSS, "
+                        
                     />
                 </Col>
             </Row>
