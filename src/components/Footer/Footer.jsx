@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
 
-export default function ListExample() {
+export default function Footer() {
   return (
     <Nav className="FOOTER_LINKS" defaultActiveKey="/home" as="ul" fixed="bottom" >
       <Nav.Item as="li">

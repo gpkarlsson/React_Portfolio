@@ -17,9 +17,7 @@ function renderLinks() {
   
 }
 
-function renderContact() {
-  document.getElementById('')
-}
+
 export default function Navigation() {
   return (
     <>
@@ -27,9 +25,15 @@ export default function Navigation() {
         <Container>
           <Navbar.Brand href="#home">Gordon Karlsson</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home" onClick={renderLinks}>Portfolio</Nav.Link>
-            <Nav.Link href="#features">About Me</Nav.Link>
-            <Nav.Link href="#contact"onClick={renderContact}>Contact Me</Nav.Link>
+            <Nav.Link eventKey="portfolio" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
+              Portfolio
+            </Nav.Link>
+            <Nav.Link eventKey="about" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
+              About Me
+            </Nav.Link>
+            <Nav.Link eventKey="contact" onClick={(e) => renderLinks(e.target.getAttribute('eventKey'))}>
+              Contact Me
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
