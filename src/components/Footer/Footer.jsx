@@ -15,13 +15,16 @@ export default function Footer() {
     //   </Nav.Item>
     // </Nav>
     <>
-    <h1 id="h1">Gordon Karlsson</h1>
-    <h3 id="h3">Web Developer</h3>
+    <div className="FOOTER_LINKS">
+    {/* <h1 id="h1" >Gordon Karlsson</h1>
+    <h3 id="h3">Web Developer</h3> */}
     <ul id="LINK_UL" style={{ diplay: 'flex', justifyContent: 'space-around' }}>
       <li><a href='github.com/gpkarlsson'>GitHub</a></li>
       <li><a href='github.com/gpkarlsson'>LinkedIn</a></li>
       <li><a href='github.com/gpkarlsson'>Stack Overflow</a></li>
     </ul>
+    </div>
+    
     </>
     
   );

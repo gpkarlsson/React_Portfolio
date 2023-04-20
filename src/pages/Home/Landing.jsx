@@ -4,24 +4,21 @@ import React from 'react';
 // import Col from 'react-bootstrap/Col';
 // import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { Image } from 'react-bootstrap';
+// import Image from 'react-bootstrap';
 
 export default function Landing() {
-  return (
-    <>
-    
-    
-<Card className="MAIN_CARD" style={{ width: '18rem', display: 'flex', justifyContent: 'center'  }}>
-      <Card.Img as={Image} variant="top" src="../../assets/portfoliopic.jpg" />
-      <Card.Body>
-        <Card.Title>About Me ? Prob needs to be in the middle, huh?</Card.Title>
-        <Card.Text>
-         
-        </Card.Text>
-        {/* <Button variant="primary">Go somewhere</Button> */}
-      </Card.Body>
-    </Card>
-    
-    </>
-  );
+
+    return (
+        <div style={{ width: '25rem', display: 'flex', justifyContent: 'center', boxShadow: ' 5px 5px 5px gray', margin: 'auto'}}>
+            <Card >
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + '/portfoliopic.jpg'} />
+                <Card.Body>
+                    <Card.Title>Gordon Karlsson</Card.Title>
+                    <Card.Text>
+                       Welcome to my portfolio! 
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </div>
+    );
 }
