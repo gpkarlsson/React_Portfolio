@@ -1,9 +1,15 @@
 import React from "react";
 import Navigation from '../../components/Navigation/Navigation'
+import Project from '../../components/Project/Project'
 
 export default function Portfolio() {
     <div>
         <Navigation />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
 
     </div>
 }
