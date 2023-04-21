@@ -1,31 +1,32 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
-
+ 
 export default function Footer() {
   return (
-    // <Nav className="FOOTER_LINKS" defaultActiveKey="/home" as="ul" fixed="bottom" >
-    //   <Nav.Item as="li">
-    //     <Nav.Link href="/home">Active</Nav.Link>
-    //   </Nav.Item>
-    //   <Nav.Item as="li">
-    //     <Nav.Link eventKey="link-1">Link</Nav.Link>
-    //   </Nav.Item>
-    //   <Nav.Item as="li">
-    //     <Nav.Link eventKey="link-2">Link</Nav.Link>
-    //   </Nav.Item>
-    // </Nav>
-    <>
-    <div className="FOOTER_LINKS">
-    {/* <h1 id="h1" >Gordon Karlsson</h1>
-    <h3 id="h3">Web Developer</h3> */}
-    <ul id="LINK_UL" style={{ diplay: 'flex', justifyContent: 'space-around' }}>
-      <li><a href='github.com/gpkarlsson'>GitHub</a></li>
-      <li><a href='github.com/gpkarlsson'>LinkedIn</a></li>
-      <li><a href='github.com/gpkarlsson'>Stack Overflow</a></li>
-    </ul>
-    </div>
-    
-    </>
-    
+    <footer className="page-footer fixed-bottom bg-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <ul className="list-unstyled d-flex justify-content-center mb-0">
+              <li className="mx-3">
+                <a href="https://github.com/gpkarlsson" className="text-white text-decoration-none">
+                  GitHub
+                </a>
+              </li>
+              <li className="mx-3">
+                <a href="https://www.linkedin.com/in/gordon-karlsson" className="text-white text-decoration-none">
+                  LinkedIn
+                </a>
+              </li>
+              <li className="mx-3">
+                <a href="https://stackoverflow.com/users/21120628/gordon-k" className="text-white text-decoration-none">
+                  Stack Overflow
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 }
+    

@@ -21,7 +21,6 @@ export default function Project(props) {
             
             <Card.Link href={link1} className='projCard' style={{display: 'flex', justifyContent: 'center'}}>GitHub</Card.Link>
             
-            
             {/* <Card.Link href={link2} style={{display: 'flex', justifyContent: 'center'}}>Live</Card.Link> */}
           </Card.Body>
         </Card>
