@@ -1,7 +1,9 @@
+// Dependency Injections
 import React from "react";
 import Project from "../../components/Project/Project"
 import { Container, Row, Col } from "react-bootstrap";
 
+// Create and export main portfolio component, and define the props to be passed into each Project component
 export default function Portfolio() {
     return (
         <Container className="justify-content-center">

@@ -1,6 +1,8 @@
+// Dependency Injections
 import React from "react";
 import { Card } from "react-bootstrap";
 
+// Create and export AboutMe component, which has my personal information and resume
 export default function AboutMe() {
   return (
     <div>
@@ -20,7 +22,7 @@ export default function AboutMe() {
         </Card.Body>
       </Card>
 
-      <Card className=" justify-content-center container-fluid mt-5 mb-5" style={{ width: '75%' }}>
+      <Card className="justify-content-center container-fluid mt-5 mb-5" style={{ width: '75%' }}>
         <Card.Body>
           <Card.Title style={{ display: 'flex', justifyContent: 'center', fontSize: '20px', fontWeight: 'bold' }}><u>Resume</u></Card.Title>
           <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
@@ -48,7 +50,7 @@ export default function AboutMe() {
             MAY 2015 <br />
             <em><b>ASSOCIATE OF ARTS: LIBERAL ARTS, MADISON COLLEGE</b></em><br />
           </Card.Text>
-          <Card.Link style={{ display: 'flex', justifyContent: 'center' }} href="../../assets/Gordon_Karlsson_Resume_2023.pdf">Resume</Card.Link>
+          {/* <Card.Link style={{ display: 'flex', justifyContent: 'center' }} href="../../assets/Gordon_Karlsson_Resume_2023.pdf">Resume</Card.Link> */}
         </Card.Body>
       </Card>
     </div>

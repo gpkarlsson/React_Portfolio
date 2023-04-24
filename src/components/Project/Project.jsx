@@ -1,7 +1,8 @@
+// Dependency Injections
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 
-
+// Export and create Project component, pass props into each Project component.
 export default function Project(props) {
     const { title, subtitle, description, link1, tech} = props;
 

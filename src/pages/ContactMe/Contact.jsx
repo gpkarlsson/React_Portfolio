@@ -1,9 +1,10 @@
+// Dependency Injections
 import React from "react";
-import Navigation from '../../components/Navigation/Navigation';
 import Form from 'react-bootstrap/Form';
 
 export default function Contact() {
   return (
+    <>
     <div className="d-flex justify-content-center">
       <Form id="contact" className="col-md-6">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -17,5 +18,9 @@ export default function Contact() {
         <button type="submit" className="btn btn-primary">Submit</button>
       </Form>
     </div>
+    <div className="d-flex justify-content-center mt-5">
+    <p style={{}}>I can be reached via email at <a href="mailto:gpkarlsson72@gmail.com">gpkarlsson72@gmail.com</a>.</p>
+    </div>
+    </>
   );
 }
