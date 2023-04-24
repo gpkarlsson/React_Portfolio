@@ -5,7 +5,7 @@
   [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Using React.js, I created a portfolio for myself to display a seclection of my web development work.
+Using Create React App, I created a portfolio for myself to display a seclection of my web development work, as well as my resume and some brief information about me.
 
 ## Table of Contents
 - [Project Description](#Description)
