@@ -23,7 +23,8 @@ Clone the repository, run `npm i` , and then `npm start`. The page will then loa
 
 ## Contact
 Contact me via email at: gpkarlsson72@gmail.com
-https://github.com/gpkarlsson
+
+My personal github page: https://github.com/gpkarlsson
 
 ## License
 [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
