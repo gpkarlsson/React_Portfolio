@@ -25,7 +25,7 @@ export default function AboutMe() {
       <Card className="justify-content-center container-fluid mt-5 mb-5" style={{ width: '75%' }}>
         <Card.Body>
           <Card.Title style={{ display: 'flex', justifyContent: 'center', fontSize: '20px', fontWeight: 'bold' }}><u>Resume</u></Card.Title>
-          <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+          <Card.Subtitle className="mb-2 text-muted">SKILLS: HTML, CSS, JavaScript, React, Node.js, Bootstrap, Bulma, Rally, Git, GitHub, NPM, vSphere </Card.Subtitle>
           <Card.Text>
             12/2022 – PRESENT<br />
             <em><b>SOFTWARE ENGINEERING TECHNICIAN, AVIDITY SCIENCE</b></em><br />
