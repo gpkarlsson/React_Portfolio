@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gpkarlsson/React_Portfolio/static/css/main.600b1e5d.css",
+    "main.js": "/gpkarlsson/React_Portfolio/static/js/main.3b1eba7b.js",
+    "index.html": "/gpkarlsson/React_Portfolio/index.html",
+    "main.600b1e5d.css.map": "/gpkarlsson/React_Portfolio/static/css/main.600b1e5d.css.map",
+    "main.3b1eba7b.js.map": "/gpkarlsson/React_Portfolio/static/js/main.3b1eba7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.600b1e5d.css",
+    "static/js/main.3b1eba7b.js"
+  ]
+}
