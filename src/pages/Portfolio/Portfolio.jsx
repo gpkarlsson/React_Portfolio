@@ -8,6 +8,15 @@ export default function Portfolio() {
     return (
         <Container className="justify-content-center">
             <Row className="justify-content-center justify-content-md-between mb-5">
+            <Col md={4} className="mb-4 mt-4">
+                    <Project
+                        title="MERN Marketplace"
+                        subtitle="Full Stack MERN App"
+                        description="A marketplace that allows users to "
+                        link1="https://github.com/gpkarlsson/E_Commerce_Placeholder"
+                        tech="React.js, Vite.js, MongoDB, Mongoose, Apollo GraphQL, Node.js, Express.js, NPM"
+                    />
+                </Col>
                 <Col md={4} className="mb-4 mt-4">
                     <Project
                         title="Cards & Cartridges"
@@ -32,7 +41,7 @@ export default function Portfolio() {
                         subtitle="Front End App"
                         description="This very portfolio you are looking at!"
                         link1="https://github.com/gpkarlsson/React_Portfolio"
-                        tech="React.js, React Bootstrap, Node.js, NPM"
+                        tech="Create React App, React.js, React Bootstrap, Node.js, NPM"
                     />
                 </Col>
             </Row>
@@ -46,15 +55,7 @@ export default function Portfolio() {
                         tech="JavaScript, Express.js, NPM, Node.js"
                     />
                 </Col>
-                <Col md={4} className="mb-4 mt-4">
-                    <Project
-                        title="Quiz Taker"
-                        subtitle="Full Stack App"
-                        description="A quiz taking app."
-                        link1="https://github.com/gpkarlsson/Custom_Quiz_Creator"
-                        tech="JavaScript, Handlebars.js, Express.js, Node.js, NPM, Nodemon"
-                    />
-                </Col>
+               
                 <Col md={4} className="mb-4 mt-4">
                     <Project
                         title="Email Sender"
