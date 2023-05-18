@@ -6,6 +6,7 @@ import App from './App';
 // import { PDFViewer } from '@react-pdf/renderer';
 import { Router } from 'react-router';
 
+
 //Render the main React DOM
 ReactDOM.render(
   <React.StrictMode>
