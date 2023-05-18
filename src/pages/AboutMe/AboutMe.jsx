@@ -1,26 +1,22 @@
 // Dependency Injections
 import React from "react";
 import { Card } from "react-bootstrap";
+import Skills from './../../components/Skills/Skills';
 
 // Create and export AboutMe component, which has my personal information and resume
 export default function AboutMe() {
   return (
     <div>
-      <Card
+      {/* <Card
         className="MAIN_CARD  justify-content-center container-fluid"
         style={{ width: "75%", display: "flex", justifyContent: "center" }}
       >
         <Card.Body>
           <Card.Title>
-            Gordon Karlsson is a 29 year old Web Development student originally
-            from Madison, Wisconsin that now resides in Milwaukee, Wisconsin. He
-            is currently working at Avidity Science as a Software Engineering
-            Technician. <br />
-            <br /> He is anticipating graduation from the University of
-            Wisconsin Full Stack Web Development Bootcamp in May of 2023.
+           
           </Card.Title>
         </Card.Body>
-      </Card>
+      </Card> */}
 
       <Card className="justify-content-center container-fluid mt-5 mb-5" style={{ width: '75%' }}>
         <Card.Body>
