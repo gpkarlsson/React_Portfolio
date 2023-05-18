@@ -21,19 +21,35 @@ export default function Landing() {
                     <Card.Title>Gordon Karlsson</Card.Title>
                     <Card.Text>
                        Welcome to my portfolio!
-                         I am currently seeking a position as a full stack web developer.
+                         I am currently seeking a position as a Front End Web Developer.
                     </Card.Text>
                 </Card.Body>
             </Card>
             
-            <Card style={{ 
-                width: '25rem', 
+            <Card style={{
+                display: 'flex',
+                width: '35rem', 
                 boxShadow: '5px 5px 5px gray',
+                alignItems: 'center',
+                justifyContent: 'center',
             }}>
                 <Card.Body>
                     <Card.Title>My Bio</Card.Title>
                     <Card.Text>
-                       Here is some information about me. This is where I would put my biography or other pertinent information.
+                    Reflecting on the past six months, my experience in the University of Wisconsin Full-Stack Web Development bootcamp has been a transformative journey that equipped me with a plethora of skills.<br /><br />
+
+In the initial Foundation phase, I built a strong base in the essentials of web development such as HTML, CSS, JavaScript, and Git, which were instrumental in developing my first front-end project. The intricacies of working with APIs really sparked my interest and pushed me to explore them more.
+
+<br /><br />The subsequent Technical phase was a deep dive into the realm of back-end technologies. Grasping Node.js, Express.js servers, and MySQL was initially challenging but rewarding. The real game-changer was understanding the Agile methodology, which refined my approach to project management and software development.
+
+<br /><br />Finally, the Performance phase was the pinnacle of the course. It introduced me to key optimization strategies and computer science principles. I ventured into the world of MongoDB, NoSQL, and React, which further broadened my skillset. One of the most beneficial aspects of this phase was creating a comprehensive portfolio that showcased my learnings.
+
+<br /><br />All in all, the bootcamp was a rigorous yet enlightening experience that consolidated my skills and spurred my transition into full-stack web development.
+
+
+
+
+
                     </Card.Text>
                 </Card.Body>
             </Card>
