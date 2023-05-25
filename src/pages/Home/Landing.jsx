@@ -28,7 +28,7 @@ export default function Landing() {
             
             <Card style={{
                 display: 'flex',
-                width: '35rem', 
+                width: '50rem', 
                 boxShadow: '5px 5px 5px gray',
                 alignItems: 'center',
                 justifyContent: 'center',
