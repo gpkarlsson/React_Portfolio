@@ -24,6 +24,11 @@ export default function Footer() {
                   Stack Overflow
                 </a>
               </li>
+              <li className="mx-3">
+                <a href="mailto:gpkarlsson72@gmail.com" className="text-white text-decoration-none">
+                  E-mail me!
+                </a>
+              </li>
             </ul>
           </div>
         </div>

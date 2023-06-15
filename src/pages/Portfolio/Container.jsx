@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation'
 import Landing from '../../pages/Home/Landing';
 import AboutMe from '../../pages/AboutMe/AboutMe';
-import Contact from '../../pages/ContactMe/Contact';
 import Portfolio from './Portfolio'
 import Footer from '../../components/Footer/Footer'
 
@@ -21,7 +20,6 @@ export default function Container() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
