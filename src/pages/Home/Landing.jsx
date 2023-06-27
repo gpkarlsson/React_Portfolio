@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import LanguageBadges from '../../components/LanguageBadges/LanguageBadges';
 
 //Create and export the Landing component, which is the landing page of the app
 export default function Landing() {
@@ -53,6 +54,7 @@ In the initial Foundation phase, I built a strong base in the essentials of web 
                     </Card.Text>
                 </Card.Body>
             </Card>
+            <LanguageBadges />
         </div>
     );
 }
