@@ -4,6 +4,7 @@ import Landing from '../../pages/Home/Landing';
 import AboutMe from '../../pages/AboutMe/AboutMe';
 import Portfolio from './Portfolio'
 import Footer from '../../components/Footer/Footer'
+import Skills from '../../components/Skills/Skills'
 
 
 export default function Container() {
@@ -19,6 +20,9 @@ export default function Container() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
+    if (currentPage === 'Skills') {
+      return <Skills />;
     }
   };
 

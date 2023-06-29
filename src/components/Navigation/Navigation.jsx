@@ -38,6 +38,16 @@ export default function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#Skills"
+          onClick={() => handlePageChange('Skills')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
+        >
+          Skills
+        </a>
+      </li>
     </ul>
   );
 }

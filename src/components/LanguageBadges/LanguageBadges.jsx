@@ -10,7 +10,9 @@ const LanguageBadges = () => {
     <Row className="justify-content-md-center">
       {languages.map((language, index) => (
         <Col key={index} xs={12} md={1}>
-          <LanguageBadge language={language} />
+          <LanguageBadge language={language} 
+          logo={process.env.PUBLIC_URL + '/assets/logos/' + language + '.png'} 
+          />
         </Col>
       ))}
     </Row>

@@ -54,7 +54,7 @@ In the initial Foundation phase, I built a strong base in the essentials of web 
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <LanguageBadges />
+            {/* <LanguageBadges /> */}
         </div>
     );
 }
